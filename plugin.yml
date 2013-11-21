@@ -1,0 +1,20 @@
+name: FBLink
+main: com.ttwj.FBLink.FBLink
+version: 1.0
+author: ttwj
+softdepend: [Vault, xAuth]
+database: false
+commands:
+   auth:
+      description: Authenticates user
+      usage: /auth <key>
+   fbinfo:
+      description: Gets user info
+      usage: /fbinfo <user>
+   fbpurge:
+         description: Purges the user info
+         usage: /fbpurge <user>
+   fblogin:
+         description: Purges the user info
+         usage: /fbpurge <user>
+database: true

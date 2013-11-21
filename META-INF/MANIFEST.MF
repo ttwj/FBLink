@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: ../lib/spymemcached-2.9.1.jar
+
